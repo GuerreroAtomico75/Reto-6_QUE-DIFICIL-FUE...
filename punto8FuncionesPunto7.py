@@ -1,0 +1,15 @@
+from punto7 import *
+if __name__ == "__main__":
+    x:float=float(input("Ingrese un valor para x: "))
+    y:float=float(input("Ingrese un valor para y: "))
+    z:float=float(input("Ingrese un valor para z: "))
+    m:float=float(input("Ingrese un valor para m: "))
+    n:float=float(input("Ingrese un valor para n: "))
+    promedioF = calcularPromedio(x, y, z, m, n)
+    medianaF = calcularMediana(x, y, z, m, n)
+    promedioMultiplicativoF = calcularPromedioMultiplicativo(x, y, z, m, n)
+    ascendenteF = calcularAscendente(x, y, z, m, n)
+    descendenteF = calcularDescendente(x, y, z, m, n)
+    mayorElevadoMenorF = calcularPotenciaNumeroMayorElevadoMenorNumero(x, y, z, m, n)
+    numeroMenorF = calcularRaizCubicaNumeroMenor(x, y, z, m, n)
+    print("El promedio, la mediana, el promedio multiplicativo, los número ordenados ascendentemente, los números ordenados descendentemente, el número mayor elevado al menor y la raiz cúbica del menor número de los 5 reales que se pusieron son", str(promedioF), ";", str(medianaF), ";", str(promedioMultiplicativoF), ";", str(ascendenteF),";", str(descendenteF),";", str(mayorElevadoMenorF),"y", str(numeroMenorF), "respectivamente.")
